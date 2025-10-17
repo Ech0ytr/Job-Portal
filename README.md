@@ -6,24 +6,43 @@ Here is a comprehensive explanation that how to setup the job portal, what funct
 	
 # Setup
 The folder structure looks like:
+
 --Miniproject2 (main folder)
+
 	-- docker-compose.yml
+	
 -- data (data folder)
+
 	-- companies.csv
+	
 	-- education.csv
+	
 	-- industries.csv
+	
 	-- jobs_detail.csv
+	
 	-- jobs.csv
+	
 	-- skills.csv
+	
 -- requirements.txt
+
 -- run-app.py
+
 -- run-app_docker.py
+
 -- transform.py
+
 -- app (app folder)
+
 	-- __init__.py
+	
 	-- jobs.py
+	
 	-- utils.py
+	
 	-- __pycache__(pycache folder)
+	
 
 Inside the data folder, we have 6 .csv files. They are all the datasets that we are going to store in Mongodb. Instead of using relational database, we preprocess the datasets into collections before putting them into Mongodb. We first run the transform.py (either within any IDLE or run in the terminal within the miniproject2 folder. The file can transform the 6 .csv files into two json files, as two collections we can use later: jobs and industries. The job collection merges nearly all of the .csvs into the collection itself and is very supportive for search by queries. The industries is mainly based on the industries.csv, where recorded information from the .csv files that is not quite important for jobs collection. 
 After we have the two .json files, we are ready to import them to mongodb. We can use ‘docker-compose upto build the container for mongo. Then, use the command ‘docker-compose exec -it mongodb sh’ in another terminal window under the folder miniproject2 to go to the shell window. Inside the shell window, first go to where the .json files are.with ‘cd ds5760/mongo’. Then, use ‘mongoimport --db careerhub --collection jobs --file jobs.json --jsonArray’ and ‘mongoimport --db careerhub --collection industries --file industries.json --jsonArray’ to import the two files into Mongodb. We can now ‘exit’ from the shell window, and run the ‘python run-app.py’. Now, it’s time to open the postman to use our flask app over there. 
@@ -33,7 +52,7 @@ Running the flask app
 
 1.	GET + localhost:5000/
 
-<img width="468" height="659" alt="image" src="https://github.com/user-attachments/assets/ac9732ee-98c2-4d9a-b63c-92e9d09198ac" />
+<img width="360" height="199" alt="image" src="https://github.com/user-attachments/assets/60d30220-9c94-40c4-9912-ea562c20e7d3" />
 
 This will lead us to a welcome page.
 
