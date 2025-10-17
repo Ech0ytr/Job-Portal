@@ -1,0 +1,142 @@
+[
+  {
+    "industry_name": "E-commerce",
+    "industry_skills": "Digital Marketing, SEO, Product Management, Logistics, Customer Service",
+    "top_companies": "Amazon, eBay, Shopify, Walmart, Alibaba",
+    "trends": "D2C Sales, Mobile Commerce, Voice Shopping, Visual Search, Localized Shopping",
+    "industry_id": 5
+  },
+  {
+    "industry_name": "Real Estate",
+    "industry_skills": "Property Management, Real Estate Valuation, Negotiation, Marketing, Sales",
+    "top_companies": "CBRE, Colliers, Jones Lang LaSalle, RE/MAX, Zillow",
+    "trends": "Smart Homes, Sustainable Real Estate, Co-living Spaces, PropTech, Virtual Property Tours",
+    "industry_id": 18
+  },
+  {
+    "industry_name": "Finance",
+    "industry_skills": "Financial Analysis, Investment Management, Risk Assessment, Excel, Corporate Finance",
+    "top_companies": "Goldman Sachs, Morgan Stanley, J.P. Morgan, Bank of America, Citibank",
+    "trends": "Cryptocurrencies, Digital Banking, AI in Finance, RegTech, Sustainable Finance",
+    "industry_id": 2
+  },
+  {
+    "industry_name": "Transport",
+    "industry_skills": "Fleet Management, Logistics, Route Planning, Transportation Safety, Traffic Analysis",
+    "top_companies": "Uber, FedEx, DHL, Maersk, Tesla",
+    "trends": "Autonomous Vehicles, Green Logistics, Mobility-as-a-Service, Hyperloop, Electric Vehicles",
+    "industry_id": 12
+  },
+  {
+    "industry_name": "Automotive",
+    "industry_skills": "Automobile Engineering, Quality Control, Production Planning, Marketing, After-Sales Service",
+    "top_companies": "Toyota, Volkswagen, Ford, Tesla, BMW",
+    "trends": "Electric Vehicles, Autonomous Driving, Shared Mobility, Connected Cars, Hydrogen Fuel Cells",
+    "industry_id": 19
+  },
+  {
+    "industry_name": "Education",
+    "industry_skills": "Curriculum Design, Teaching, Student Counseling, Educational Technology, Research Skills",
+    "top_companies": "Coursera, Udemy, Khan Academy, Pearson, Blackboard",
+    "trends": "EdTech, Online Learning, Personalized Education, Microlearning, AR in Classrooms",
+    "industry_id": 7
+  },
+  {
+    "industry_name": "Energy",
+    "industry_skills": "Renewable Energy, Grid Management, Energy Storage, Petroleum Engineering, Energy Policy",
+    "top_companies": "ExxonMobil, Shell, BP, Tesla, Enel",
+    "trends": "Renewable Energy, Decentralized Grids, Energy Storage, Carbon Capture, Smart Grids",
+    "industry_id": 9
+  },
+  {
+    "industry_name": "Manufacturing",
+    "industry_skills": "Production Planning, Quality Control, Supply Chain, Automation, Lean Manufacturing",
+    "top_companies": "General Electric, Siemens, Toyota, 3M, Bosch",
+    "trends": "Smart Factories, Additive Manufacturing, AI in Production, IoT in Manufacturing, Sustainability",
+    "industry_id": 6
+  },
+  {
+    "industry_name": "Tourism",
+    "industry_skills": "Travel Planning, Hospitality Management, Customer Service, Event Planning, Marketing",
+    "top_companies": "Airbnb, Expedia, TUI Group, Booking.com, Marriott",
+    "trends": "Experiential Travel, Sustainable Tourism, Virtual Tourism, Wellness Travel, Remote Work Tourism",
+    "industry_id": 13
+  },
+  {
+    "industry_name": "Pharmaceuticals",
+    "industry_skills": "Clinical Trials, Drug Development, Regulatory Compliance, Marketing, Quality Assurance",
+    "top_companies": "Pfizer, Merck, Novartis, Roche, AstraZeneca",
+    "trends": "Personalized Medicine, mRNA Vaccines, AI in Drug Discovery, Telepharmacy, Regulatory Streamlining",
+    "industry_id": 20
+  },
+  {
+    "industry_name": "Agriculture",
+    "industry_skills": "Crop Management, Precision Agriculture, Soil Analysis, Farm Machinery, Supply Chain",
+    "top_companies": "John Deere, Syngenta, Bayer, Cargill, Corteva",
+    "trends": "Precision Farming, Vertical Farming, Organic Farming, Robotics in Agriculture, AI Crop Monitoring",
+    "industry_id": 15
+  },
+  {
+    "industry_name": "Consulting",
+    "industry_skills": "Problem Solving, Strategic Thinking, Client Management, Communication, Data Analysis",
+    "top_companies": "Deloitte, PwC, EY, KPMG, Accenture",
+    "trends": "Remote Work Consulting, Cybersecurity Consulting, AI Strategy, Sustainable Business Models, Digital Transformations",
+    "industry_id": 1
+  },
+  {
+    "industry_name": "Legal",
+    "industry_skills": "Legal Research, Contract Management, Litigation, Compliance, Intellectual Property",
+    "top_companies": "Clifford Chance, Allen & Overy, Linklaters, Baker McKenzie, Latham & Watkins",
+    "trends": "Legal Tech, AI in Legal Research, Compliance Automation, Remote Legal Services, Blockchain in Contracts",
+    "industry_id": 16
+  },
+  {
+    "industry_name": "Healthcare",
+    "industry_skills": "Patient Care, Clinical Knowledge, Medical Research, Diagnostics, Health IT",
+    "top_companies": "Pfizer, Johnson & Johnson, Roche, Novartis, Merck",
+    "trends": "Telemedicine, AI in Diagnostics, Personalized Treatment, Wearable Health Tech, Biotech Innovations",
+    "industry_id": 4
+  },
+  {
+    "industry_name": "Tech",
+    "industry_skills": "Programming, Data Structures, Cloud Computing, Software Development, Cybersecurity",
+    "top_companies": "Google, Apple, Facebook, Amazon, Microsoft",
+    "trends": "Artificial Intelligence, Quantum Computing, 5G, Augmented Reality, Blockchain",
+    "industry_id": 3
+  },
+  {
+    "industry_name": "Retail",
+    "industry_skills": "Merchandising, Retail Operations, Inventory Management, Customer Experience, POS Systems",
+    "top_companies": "Walmart, Costco, Target, IKEA, Carrefour",
+    "trends": "Omnichannel Retail, AI-driven Customer Insights, Cashless Stores, Subscription Models, AR Shopping",
+    "industry_id": 11
+  },
+  {
+    "industry_name": "Construction",
+    "industry_skills": "Project Management, Civil Engineering, Blueprint Reading, Risk Management, Construction Safety",
+    "top_companies": "Bechtel, Fluor, Turner, Vinci, Skanska",
+    "trends": "Green Buildings, 3D Printing in Construction, Modular Construction, Smart Buildings, BIM",
+    "industry_id": 10
+  },
+  {
+    "industry_name": "Entertainment",
+    "industry_skills": "Content Creation, Event Management, Social Media Marketing, Talent Management, Script Writing",
+    "top_companies": "Netflix, Disney, Warner Bros, Sony, Universal",
+    "trends": "Streaming Services, Interactive Media, Virtual Concerts, AI-driven Content, Esports",
+    "industry_id": 17
+  },
+  {
+    "industry_name": "Telecommunication",
+    "industry_skills": "Network Management, Telecommunications Engineering, Customer Support, Spectrum Management, 5G Technologies",
+    "top_companies": "Verizon, AT&T, Vodafone, Nokia, Huawei",
+    "trends": "5G Expansion, IoT Connectivity, Fiber Optics, Satellite Communication, Cloud Telephony",
+    "industry_id": 8
+  },
+  {
+    "industry_name": "Aerospace",
+    "industry_skills": "Aerospace Engineering, Satellite Technology, Avionics, Project Management, Safety Compliance",
+    "top_companies": "Boeing, Airbus, Lockheed Martin, SpaceX, Raytheon",
+    "trends": "Commercial Space Travel, Satellite Constellations, Hypersonic Travel, UAVs, Space Tourism",
+    "industry_id": 14
+  }
+]
